@@ -6,8 +6,9 @@ Design pattern was followed to create framework.
 
 	Step 1. Download Eclipse from url-"https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygenm2"
 
-	Step 2. Before launching eclipse make sure that jdk version 1.8.0 or above is installed and java path is set in Environment variables.
-  Step 3. Maven 3.5.4 is installed in the system and MAVEN_HOME and classpath of maven bin is set in Environment variables.
+	Step 2. Before launching eclipse make sure that jdk version 1.8.0 or above is installed and java path is set in Environment 		variables.
+  	Step 3. Maven 3.5.4 is installed in the system and MAVEN_HOME and classpath of maven bin is set in Environment variables.
+  	go to terminal and execute "mvn --version" to make sure maven is installed and classpath is set.
 
 3. Extract downloaded eclipse and inside the folder click on eclipse icon
 
@@ -26,4 +27,4 @@ Design pattern was followed to create framework.
 9. If still project branch is showing error Right click on project->Maven->Update Project
 
 10. In order to run project go to project folder and execute command "mvn clean test" on cmd or terminal
-test will run and report will be generated in target\surefire-reports folder of the project, click on eemailable-report.
+test will run and report will be generated in target\surefire-reports folder of the project, click on emailable-report.
