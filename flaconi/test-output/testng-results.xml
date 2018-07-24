@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[User clicked on PARFUM menu]]>
+    </line>
+    <line>
+      <![CDATA[User selected Herrenparfum]]>
+    </line>
+    <line>
+      <![CDATA[User selected Düfte]]>
+    </line>
+    <line>
+      <![CDATA[User selected first link under Düfte category]]>
+    </line>
+    <line>
+      <![CDATA[Item in the cart is same as selected by user]]>
+    </line>
+    <line>
+      <![CDATA[User order test passed successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="UserJourneyTest" duration-ms="36296" started-at="2018-07-24T14:24:41Z" finished-at="2018-07-24T14:25:17Z">
+    <groups>
+    </groups>
+    <test name="UserOrder" duration-ms="36296" started-at="2018-07-24T14:24:41Z" finished-at="2018-07-24T14:25:17Z">
+      <class name="testscripts.PerfumeOrderTest">
+        <test-method status="PASS" signature="fnpreCondition(java.lang.String)[pri:0, instance:testscripts.PerfumeOrderTest@2b98378d]" name="fnpreCondition" is-config="true" duration-ms="13116" started-at="2018-07-24T16:24:41Z" finished-at="2018-07-24T16:24:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnpreCondition -->
+        <test-method status="PASS" signature="verify_perfume_order_by_user()[pri:0, instance:testscripts.PerfumeOrderTest@2b98378d]" name="verify_perfume_order_by_user" duration-ms="20827" started-at="2018-07-24T16:24:54Z" finished-at="2018-07-24T16:25:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User clicked on PARFUM menu]]>
+            </line>
+            <line>
+              <![CDATA[User selected Herrenparfum]]>
+            </line>
+            <line>
+              <![CDATA[User selected Düfte]]>
+            </line>
+            <line>
+              <![CDATA[User selected first link under Düfte category]]>
+            </line>
+            <line>
+              <![CDATA[Item in the cart is same as selected by user]]>
+            </line>
+            <line>
+              <![CDATA[User order test passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_perfume_order_by_user -->
+        <test-method status="PASS" signature="fnpostCondition()[pri:0, instance:testscripts.PerfumeOrderTest@2b98378d]" name="fnpostCondition" is-config="true" duration-ms="2327" started-at="2018-07-24T16:25:15Z" finished-at="2018-07-24T16:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnpostCondition -->
+      </class> <!-- testscripts.PerfumeOrderTest -->
+    </test> <!-- UserOrder -->
+  </suite> <!-- UserJourneyTest -->
+</testng-results>

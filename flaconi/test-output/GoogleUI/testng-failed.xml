@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GoogleUI]">
+  <parameter name="browser" value="chrome"/>
+  <test name="GoogleTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testscripts.PerfumeOrderTest">
+        <methods>
+          <include name="verify_perfume_order_by_user"/>
+          <include name="fnpostCondition"/>
+          <include name="fnpreCondition"/>
+        </methods>
+      </class> <!-- testscripts.PerfumeOrderTest -->
+    </classes>
+  </test> <!-- GoogleTest(failed) -->
+</suite> <!-- Failed suite [GoogleUI] -->
