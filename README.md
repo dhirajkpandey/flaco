@@ -1,4 +1,4 @@
-# flaco
+# flaconi project
 1. This project has been built using Maven, TestNG, Selenium WebDriver and java. In order to make project clean and scalable Page Object 
 Design pattern was followed to create framework.
 
